@@ -1,4 +1,11 @@
 # SMEXI
+
+<div align="center">
+
+[The SMEXI Project](https://www.dfki.uni-kl.de/~memmel/smexi/)
+
+</div>
+
 Cities worldwide are confronting complex environmental, social, economic, and governance challenges, exacerbated by crises like the Covid-19 pandemic and military conflicts. Addressing these issues requires a comprehensive approach focused on sustainable development that meets current needs without compromising future generations.
 
 The United Nations Sustainable Development Goals (SDGs), established in 2015, provide a framework for tackling interconnected social, economic, and environmental challenges. However, effectively promoting sustainable development necessitates a clear understanding of regional conditions through relevant indicators. Unfortunately, many existing tools for analyzing SDGs are limited to macro-level assessments, failing to capture the diverse realities within cities.
