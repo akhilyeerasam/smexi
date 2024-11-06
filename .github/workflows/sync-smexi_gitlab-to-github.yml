@@ -15,8 +15,8 @@ jobs:
 
       - name: Set up Git
         run: |
-          git config --global user.name 'akhilyeerasam'
-          git config --global user.email 'actions@github.com'
+          git config user.name 'akhilyeerasam'
+          git config user.email 'actions@github.com'
 
       - name: Clone GitLab repository
         run: |
