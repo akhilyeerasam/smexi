@@ -20,7 +20,7 @@ jobs:
 
       - name: Clone GitLab repository
         run: |
-          git clone https://$DFKI_GITLAB_TOKEN@$DFKI_GITLAB_REPO gitlab-repo
+          git clone https://${{ secrets.DFKI_GITLAB_TOKEN }}@git.opendfki.de/sds-public/smexi.git gitlab-repo
           cd gitlab-repo
           git pull origin main  # Change 'main' if your branch is different
           cp -r * ../  # Copy files to the GitHub repository
