@@ -1,0 +1,343 @@
+@import '../../node_modules/bulma/css/bulma.css';
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+.map {
+  position: absolute;
+  width: inherit;
+  height: 100%;
+}
+
+.region_info_bar_container {
+  height: 100vh;
+  overflow-y: scroll;
+  border: 2px dashed;
+}
+
+.region_info_bar_container_active {
+  border-style: solid !important;
+}
+
+.region_info_bar_compare_container {
+  position: absolute;
+  z-index: 9999;
+  width: 310px;
+  margin: 20px;
+  background-color: white;
+  overflow-y: scroll;
+  height: 95vh;
+  border: 2px dashed;
+}
+
+.regionScore {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.regionScoreErrorMessage {
+  font-size: 12px;
+  color: red;
+}
+
+.info_section {
+  margin-top: 20px;
+  background-color: lightgrey;
+}
+
+.active_info_section {
+  background-color: white !important;
+  border: 1px solid black;
+}
+
+.sectionHeading {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.sectionDescription {
+  font-size: 12px;
+}
+
+.transportRouteText {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.transportPlatformText {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.transport_route_option {
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  background-color: rgba(0,0,0,.05);
+  color: black;
+  display: inline-block;
+  border-radius: 0.125rem;
+}
+
+.amenityText {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.period_steplist, .sdgSettingsSliderSteplist {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+}
+
+.period_steplist_active {
+  font-weight: bold;
+  color: black;
+}
+
+.period_playPause {
+  background-color: grey;
+  width: 20px;
+}
+
+.period_timeline_description {
+  font-size: 10px;
+}
+
+.sdg_settings_container {
+  position: absolute;
+  z-index: 9999;
+  width: 300px;
+  margin: 20px;
+  background-color: white;
+  overflow-y: scroll;
+  height: 95vh;
+}
+
+.sdgSettingsSlider {
+  accent-color: grey;
+  width: 100%;
+}
+
+.sdgSettingsSliderLabel {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.visual_tooltip {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 12px;
+  pointer-events: none;
+  display: none;
+}
+
+.info_tooltip_container {
+  float: right;
+  position: relative;
+  /* display: inline-block; */
+  padding: 5px 10px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.scroll_Sync_Container {
+  font-size: 12px;
+}
+
+.scroll_Sync_Container input, .scroll_Sync_Container label span {
+  vertical-align: middle;
+}
+
+/* Style for the info tooltip */
+.info_tooltip {
+  width: 100px;
+  font-size: 10px;
+  visibility: hidden;
+  position: absolute;
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+  padding: 10px;
+  top: 100%; /* Position below the button */
+  left: 50%;
+  transform: translateX(-50%);
+  /* transform: translate(-100px,-50%); */
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Show the tooltip on hover */
+.info_tooltip_container:hover .info_tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Hide the leaflet map layer button which allows for switching between layers */
+.leaflet-control-layers.leaflet-control {
+  display: none;
+}
+
+/* Hide the zoom control options on the map, allowing space for the compare region section*/
+.leaflet-left {
+  display: none;
+}
+
+/* ProgressBar Visualisation styles -------------------------------------------------------------------------------- */
+.progressBarContainer {
+  margin: 0 0 3px 0;
+  overflow: hidden;
+}
+
+.progressBar {
+  width: 100%;
+  background-color: grey;
+  height: 5px;
+}
+
+.progressBarValue {
+  height: 5px;
+}
+
+.progressBar_CategoryText_Ellipsis {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.progressBar_CategoryText {
+  width: 70%;
+}
+
+.progressBar_CategoryValue {
+  width: 28%;
+  text-align: right;
+}
+
+.progressBar_CategoryText, .progressBar_CategoryValue {
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.progressBarPeriodSlider {
+  accent-color: grey;
+  width: 100%;
+}
+
+.progressBar_periodTimelineContainer {
+  padding-top: 20px;
+}
+/*  ---------------------------------------------------------------------------------------------------------------- */
+
+/* Donut Chart Visualisation styles -------------------------------------------------------------------------------- */
+.donutChartContainer {
+  display: block;
+  margin: auto;
+}
+
+div.tooltip-donut {
+  position: absolute;
+  text-align: center;
+  padding: 5px;
+  background: #FFFFFF;
+  color: #313639;
+  border: 1px solid #313639;
+  border-radius: 4px;
+  pointer-events: none;
+  z-index: 99999;
+  font-size: 12px;
+}
+
+.donutChartLegend_Text {
+  font-size: 10px;
+}
+
+.donutChartLegend {
+  cursor: pointer;
+}
+
+.donutChartLegend_HideOption {
+  text-decoration: line-through;
+}
+
+.donutChartPeriodSlider {
+  accent-color: grey;
+  width: 100%;
+}
+/*  ---------------------------------------------------------------------------------------------------------------- */
+
+/* Pyramid Chart Visualisation styles -------------------------------------------------------------------------------- */
+.pyramidChartLegend_Text {
+  font-size: 10px;
+}
+
+.pyramidChartLegend {
+  /* cursor: pointer; */
+}
+/*  ---------------------------------------------------------------------------------------------------------------- */
+
+/* Leaflet Map Legend styles -------------------------------------------------------------------------------- */
+.leafletLegend {
+  padding: 6px 8px;
+  font: 12px Arial, Helvetica, sans-serif;
+  background: white;
+  background: rgba(255, 255, 255, 0.8);
+  /*box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);*/
+  /*border-radius: 5px;*/
+  line-height: 24px;
+  color: #555;
+}
+.leafletLegend h4 {
+  text-align: center;
+  font-size: 14px;
+  margin: 2px 12px 8px;
+  color: #777;
+}
+
+.leafletLegend span {
+  position: relative;
+  bottom: 3px;
+}
+
+.leafletLegend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin: 0 8px 0 0;
+  opacity: 0.7;
+}
+/*  ---------------------------------------------------------------------------------------------------------------- */

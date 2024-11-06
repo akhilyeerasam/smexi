@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html style="overflow: hidden;">
+    <head>
+        <meta charset="utf-8" />
+        <title>SMEXI</title>
+        <script src="../dist/bundle.js"></script>
+        <link rel="stylesheet" href="../src/styles/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+
+    <body>
+        <div class="root is-fullheight">
+            <div id="app_container" class="columns">
+
+                <fixed_region_info_bar-custom-template class="column is-3" style="padding-right: 0;"></fixed_region_info_bar-custom-template>
+
+                <div id="map_container" class="column is-9" style="padding-left: 0;">
+                    <div id="map" class="map"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="visualTooltip" class="visual_tooltip"></div>
+    </body>
+</html>

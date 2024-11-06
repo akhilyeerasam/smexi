@@ -1,0 +1,33 @@
+{
+    "properties" : {
+	"id" : {
+	    "type" : "keyword"
+	},
+	"creationDate" : {
+	    "type" : "date",
+	    "format" : "strict_date_optional_time||epoch_millis"
+	},
+	"description" : {
+	    "type" : "text"
+	},
+	"name" : {
+	    "type" : "text",
+	    "fields": {
+		"raw": {
+		    "type":  "keyword"
+		}
+	    }
+	},
+	"municipality_id" : {
+	    "type" : "keyword"
+	},
+	"geolocation" : {
+	    "type" : "geo_shape",
+            "precision" : "50cm"
+	},
+	"shapeType" : {
+	    "type" : "keyword"
+	}
+    }
+
+}

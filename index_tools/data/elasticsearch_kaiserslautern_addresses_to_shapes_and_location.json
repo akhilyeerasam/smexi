@@ -1,0 +1,89 @@
+{
+    "settings": {
+        "index": {
+            "number_of_shards": 1,
+            "analysis": {
+                "analyzer": {
+                    "ngram": {
+                        "type": "custom",
+                        "tokenizer": "ngram_tokenizer",
+                        "filter": ["lowercase"]
+                    },
+                    "word_trigram": {
+                        "type": "custom",
+                        "tokenizer": "standard",
+                        "filter": ["shingle","lowercase"]
+                    }
+                },
+                "tokenizer": {
+                    "edge_trigram_tokenizer": {
+                        "type": "edge_ngram",
+                        "min_gram": 3,
+                        "max_gram": 30
+                    },
+                    "ngram_tokenizer": {
+                        "type": "ngram",
+                        "min_gram": 4,
+                        "max_gram": 4
+                    }
+                },
+                "filter": {
+                    "shingle": {
+                        "type": "shingle",
+                        "min_shingle_size": 2,
+                        "max_shingle_size": 3
+                    }
+
+                }
+            }
+        }
+    },
+    "mappings": {
+        "properties" : {
+            "geolocation" : {
+                "type" : "geo_shape"
+            },
+            "geolocation_as_point" : {
+                "type" : "geo_point"
+            },
+            "street_id" : {
+                "type" : "keyword"
+            },
+            "street_name" : {
+                "type" : "text",
+                "fields": {
+                    "raw": {
+                        "type": "keyword"
+                    },
+                    "ngram": {
+                        "type": "text",
+                        "analyzer": "ngram"
+                    },
+                    "word_trigram": {
+                        "type": "text",
+                        "analyzer": "word_trigram"
+                    }
+                }
+            },
+            "house_number_id" : {
+                "type" : "keyword"
+            },
+            "house_number" : {
+                "type" : "integer"
+            },
+            "house_number_addition" : {
+                "type" : "keyword"
+            },
+            "id_statistical_region" : {
+                "type" : "keyword"
+            },
+            "id_suburb" : {
+                "type" : "keyword"
+            },
+            "import_date": {
+                "type": "date",
+                "format" : "strict_date||epoch_millis"
+            }
+        }
+    }
+}

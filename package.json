@@ -1,0 +1,32 @@
+{
+  "priavte": true,
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "source-map-loader": "^1.0.0",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1"
+  },
+  "scripts": {
+    "dev-server": "webpack serve --open",
+    "clean": "rm -rf dist",
+    "build": "webpack --watch --config webpack.config.js",
+    "build:once": "npm run clean && webpack --config webpack.config.js && echo 'Build complete. Dist folder updated.'"  
+  },
+  "dependencies": {
+    "@turf/turf": "^6.5.0",
+    "autoprefixer": "^10.4.14",
+    "buffer": "^5.7.1",
+    "bulma": "^0.9.4",
+    "d3": "^7.8.4",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.6.4",
+    "leaflet": "^1.9.3",
+    "lodash": "^4.17.21",
+    "url": "^0.11.1",
+    "util": "^0.12.5"
+  }
+}

@@ -1,0 +1,121 @@
+Ortsbezirke Nr;Ortsbezirke BEZ;Statistische Bezirke Nr;Statistische Bezirke BEZ
+1;Innenstadt Ost;110;0110  Östlich der Schneiderstraße
+1;Innenstadt Ost;120;0120  Nördlich der Mannheimer Straße
+1;Innenstadt Ost;125;0125  Östlich der Krimmstraße
+1;Innenstadt Ost;130;0130 Zwischen Gau- Mannh. und Krimmstraße
+1;Innenstadt Ost;140;0140 Nordwestlich v. Schlittweg
+1;Innenstadt Ost;145;0145 Südöstlich v. Schlittweg
+1;Innenstadt Ost;150;0150 Franzosenstein und Umgebung
+1;Innenstadt Ost;160;0160 Westlich der Erlenstraße
+1;Innenstadt Ost;165;0165 Zwischen Erlenstraße und Messeplatz
+1;Innenstadt Ost;170;0170 Zwischen Bismarck- und Schulstraße
+1;Innenstadt Ost;175;0175 Maria Schutz Kirche und südliche Umgebung
+1;Innenstadt Ost;180;0180 Barbarossa Schule und nördliche Umgbung
+1;Innenstadt Ost;185;0185  Von südlicher Eisbahnstrasse bis Messeplatz
+2;Innenstadt Südwest;210;0210  südlich der Alleestraße
+2;Innenstadt Südwest;220;0220  nördlich Allee-, westlich der Schneiderstraße
+2;Innenstadt Südwest;230;0230  Hallenbad und nördlcihe Umgebung
+2;Innenstadt Südwest;240;0240  Stadtp.u.Nordöstl.Umg.
+2;Innenstadt Südwest;250;0250  Ö.Breitsch.,nö.Pirm.Str.
+2;Innenstadt Südwest;260;0260  Nördl.d.Beeth.-Str.
+2;Innenstadt Südwest;270;0270  Südl.d.Beethovenstr.
+2;Innenstadt Südwest;280;0280  Südl.d.Stadtparks
+2;Innenstadt Südwest;281;0281  Hauptbahnhof/Hauptpost
+3;Innenstadt West/Kotten;310;0310  Klinikum-Pfaffpl.u.Umg.
+3;Innenstadt West/Kotten;315;0315  Östl.d.Pfaffpl.
+3;Innenstadt West/Kotten;320;0320  St.-Marien-Pl.u.Umg.
+3;Innenstadt West/Kotten;325;0325  Südw.d.Werderstr.
+3;Innenstadt West/Kotten;330;0330  Herm.-Gehlen-Str.u.Umg.
+3;Innenstadt West/Kotten;331;0331  Pfaff u.Umgeb.
+3;Innenstadt West/Kotten;335;0335  Goethesch.u.Westl.Umg.
+3;Innenstadt West/Kotten;340;0340  Hohenst.-Gymn.u.Umg.
+3;Innenstadt West/Kotten;350;0350  Westl.d.Schäferstr.
+3;Innenstadt West/Kotten;351;0351  Kammgarn/Schlachthof
+3;Innenstadt West/Kotten;355;0355  Zw.Schäf.-u.Schalkstr.
+3;Innenstadt West/Kotten;360;0360  Zw.Schalk-u.Schurzstr.
+3;Innenstadt West/Kotten;365;0365  Zw.Schurz-u.Wollstr.
+3;Innenstadt West/Kotten;370;0370  Westl.Wollstr.b.Apostelk.
+3;Innenstadt West/Kotten;375;0375  Östl.d.Pfründn.-Str.
+4;Innenstadt Nord/Kaiserberg;410;0410  Westl.d.Ottostr.
+4;Innenstadt Nord/Kaiserberg;411;0411  Nordw.d.Gaustr.
+4;Innenstadt Nord/Kaiserberg;420;0420  Östl.d.Ottostr.
+4;Innenstadt Nord/Kaiserberg;430;0430  Engelshof-Sonnenberg
+4;Innenstadt Nord/Kaiserberg;440;0440  Kaiserberg-Hussongstr.
+4;Innenstadt Nord/Kaiserberg;441;0441  Westl.d.Merianstr.
+4;Innenstadt Nord/Kaiserberg;450;0450  Alex-Müller-Str.u.Umg.
+4;Innenstadt Nord/Kaiserberg;460;0460  Auf d.Sess u.Umg.
+4;Innenstadt Nord/Kaiserberg;470;0470  Gersweilerweg u.Umg.
+4;Innenstadt Nord/Kaiserberg;480;0480  Zeppelinpl.u.Umg.
+5;Grübentälchen/Volkspark;510;0510  Nördl.d.Kalkofens
+5;Grübentälchen/Volkspark;520;0520  Westl.d.Mennonitenstr.
+5;Grübentälchen/Volkspark;530;0530  Östl.d.Mennonitenstr.
+5;Grübentälchen/Volkspark;540;0540  Nördl.d.Gut-Heim-Str.
+5;Grübentälchen/Volkspark;531;0531  Eselsfürth
+5;Grübentälchen/Volkspark;545;0545  Südl.d.Gut-Heim-Str.
+5;Grübentälchen/Volkspark;550;0550  Nördl.d.Dornenstr.
+5;Grübentälchen/Volkspark;560;0560  Mannh.-bis Dornenstr.
+5;Grübentälchen/Volkspark;570;0570  Westl.d.Dan.-Häb.-Str.
+5;Grübentälchen/Volkspark;571;0571  Südl.d.Stw-Str.-Volkspark
+5;Grübentälchen/Volkspark;580;0580  Östl.d.Dan.-Häb.-Str.
+5;Grübentälchen/Volkspark;590;0590  Nördl.d.Stiftswaldstr.
+6;Betzenberg;610;0610  Betzenberg Nördl.Teil
+6;Betzenberg;620;0620  Betzenberg Westl.Teil
+6;Betzenberg;630;0630  Zw.Kantstr.u.St.Quentinr.
+6;Betzenberg;640;0640  Betzenberg Östl.Teil
+6;Betzenberg;650;0650  Zw.Hegelstr.u.Stadion
+7;Lämmchesberg/Uniwohnstadt;710;0710  Westl.d.Buchenlochstr.
+7;Lämmchesberg/Uniwohnstadt;720;0720  Nördl.Umg.Buchenloch
+7;Lämmchesberg/Uniwohnstadt;730;0730  Buchenloch-b.Pfaffenb.Str.
+7;Lämmchesberg/Uniwohnstadt;740;0740  Pfaffenb.-Str.b.Bremerhof
+7;Lämmchesberg/Uniwohnstadt;745;0745  Östl.v.Am Specht
+7;Lämmchesberg/Uniwohnstadt;750;0750  Uniwohnstadt Nördl.Teil
+7;Lämmchesberg/Uniwohnstadt;760;0760  Nordwestl.Uniwohnstadt
+7;Lämmchesberg/Uniwohnstadt;770;0770  Südwestl.Uniwohnstadt
+7;Lämmchesberg/Uniwohnstadt;780;0780  Davenportpl.u.Umg.
+7;Lämmchesberg/Uniwohnstadt;790;0790  Südöstl.Uniwohnstadt
+8;Bännjerrück/Karl-Pfaff-S.;810;0810  Bännjerrück Südost
+8;Bännjerrück/Karl-Pfaff-S.;820;0820  Bännjerrück Ost
+8;Bännjerrück/Karl-Pfaff-S.;830;0830  Bännjerrück Ost
+8;Bännjerrück/Karl-Pfaff-S.;840;0840  Bännjerrück Nordwest
+8;Bännjerrück/Karl-Pfaff-S.;841;0841  Vogelweh
+8;Bännjerrück/Karl-Pfaff-S.;850;0850  Bännjerrück West
+8;Bännjerrück/Karl-Pfaff-S.;860;0860  Bännjerrück Südwest
+9;Kaiserslautern-West;910;0910  Bahnheim
+9;Kaiserslautern-West;920;0920  Siedl.A.Belzappel Westl.T.
+9;Kaiserslautern-West;921;0921  Opelkreisel
+9;Kaiserslautern-West;930;0930  Siedl.A.Belzappel Östl.T.
+9;Kaiserslautern-West;940;0940  Reichswaldstr.u.Umg.
+9;Kaiserslautern-West;950;0950  Lothr.Dell-Schlag u.a.
+9;Kaiserslautern-West;960;0960  Pfeifert.-Höffl.-Str.u.a.
+9;Kaiserslautern-West;970;0970  Berliner Str.u.Umg.
+9;Kaiserslautern-West;980;0980  Fischerrück
+9;Kaiserslautern-West;990;0990  Posener Str.u.Umg.
+9;Kaiserslautern-West;991;0991  Gewerbegebiet
+10;Erzhütten/Wiesenthalerhof;1010;1010 Erzhütten
+10;Erzhütten/Wiesenthalerhof;1020;1020 Wiesenthalerhof Nord
+10;Erzhütten/Wiesenthalerhof;1030;1030 Wiesenthalerhof Süd
+11;Einsiedlerhof;1110;1110 Einsiedlerhof
+12;Morlautern;1210;1210 Morlautern West
+12;Morlautern;1220;1220 Morlautern Mitte
+12;Morlautern;1230;1230 Morlautern Ost
+13;Erlenbach;1310;1310 Erlenbach Ost
+13;Erlenbach;1320;1320 Erlenbach West
+13;Erlenbach;1321;1321 Gersweilerhof
+14;Mölschbach;1410;1410 Mölschbach
+15;Dansenberg;1510;1510 Dansenberg Nord
+15;Dansenberg;1520;1520 Dansenberg Mitte
+15;Dansenberg;1530;1530 Dansenberg Süd
+16;Hohenecken;1610;1610 Hohenecken Ost
+16;Hohenecken;1620;1620 Hohenecken Süd
+16;Hohenecken;1621;1621 Espensteig
+16;Hohenecken;1630;1630 Hohenecken West
+16;Hohenecken;1640;1640 Hohenecken Nord
+17;Siegelbach;1710;1710 Siegelbach West
+17;Siegelbach;1720;1720 Siegelbach Nord
+17;Siegelbach;1730;1730 Siegelbach Ost
+18;Erfenbach;1810;1810 Erfenbach Süd
+18;Erfenbach;1820;1820 Erfenbach Nordwest
+18;Erfenbach;1821;1821 Stockborn
+18;Erfenbach;1830;1830 Erfenbach Nordost
+ng;nicht gefüllt;ng;nicht gefüllt
+nz;nicht zuzuordnen;nz;nicht zuzuordnen
