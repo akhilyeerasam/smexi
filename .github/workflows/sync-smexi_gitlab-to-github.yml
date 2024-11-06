@@ -3,6 +3,7 @@ name: Sync SMEXI-GitLab to GitHub
 on:
   schedule:
     - cron: '0 0 * * *'  # Adjust the cron schedule as needed (this runs hourly)
+  workflow_dispatch:  # Allows manual triggering of the workflow.
 
 jobs:
   sync:
