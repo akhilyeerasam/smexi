@@ -5,6 +5,9 @@ on:
     - cron: '0 0 * * *'  # Adjust the cron schedule as needed (this runs hourly)
   workflow_dispatch:  # Allows manual triggering of the workflow.
 
+permissions:
+  contents: write  # Grants write permission to the GitHub Actions bot
+
 jobs:
   sync:
     runs-on: ubuntu-latest
