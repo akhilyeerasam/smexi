@@ -2,7 +2,7 @@ name: Sync SMEXI-GitLab to GitHub
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Adjust the cron schedule as needed (this runs hourly)
+    - cron: '0 0 1,15 * *'  # Adjust the cron schedule as needed (this runs hourly)
   workflow_dispatch:  # Allows manual triggering of the workflow.
 
 permissions:
@@ -31,7 +31,7 @@ jobs:
 
       - name: Add and commit changes
         run: |
-          git add .
+          git add --all
           git commit -m "Sync from GitLab SMEXI" || echo "No changes to commit"
 
       - name: Push changes to GitHub
