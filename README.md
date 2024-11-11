@@ -2,7 +2,9 @@
 
 <div align="center">
 
-[The SMEXI Project](https://www.dfki.uni-kl.de/~memmel/smexi/)
+[The SMEXI Project](https://smexi.dfki.de)
+
+[Demo](https://smexi.dfki.de/demonstrator)
 
 </div>
 
